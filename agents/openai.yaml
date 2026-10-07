@@ -1,0 +1,13 @@
+interface:
+  display_name: "小红书收藏转地图"
+  short_description: "点点读取收藏，助手核验地点并保存到 Google Maps，记录来源与遗漏"
+  default_prompt: "使用 $xiaohongshu-to-maps，先检查小红书和 Google Maps 登录，让点点读取收藏，由你整理核验地点，保存到私人清单并添加来源备注，逐篇逐店报告结果。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
